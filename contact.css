@@ -1,0 +1,111 @@
+.main-cont{
+    border: solid;
+    border-width: 1px;
+    padding: 20px;
+    border-color: rgb(219, 210, 210);
+    border-radius: 8px;
+    background-color: rgb(219, 210, 210);
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.contact{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 10px;
+   
+}
+.message{
+    border-radius:5px;
+   padding: 35px;
+   background-color: rgb(235, 231, 231);
+   border: none;
+   padding-right: 65px;
+}
+.name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    background-color: rgb(235, 231, 231);
+   border: none;
+   border-radius:5px;
+}
+button,
+.btn{
+    border: none;
+    background-color: rgb(76, 76, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.btn{
+  margin-right: 5px;
+}
+
+
+@media (max-width: 2000px) {
+    .contact{
+        justify-content: center;
+    }
+    .main-cont{
+       justify-content: center;
+    }
+  }
+  @media (max-width: 1600px) {
+    .contact{
+      
+       justify-content: center;
+    }
+    .main-cont{
+      justify-content: center;
+      
+    }
+  }
+  @media (max-width: 1300px) {
+    .contact{
+      justify-content: center;
+    }
+    .main-cont{
+      justify-content: center;
+    }
+  }
+  
+  
+  @media (max-width: 800px) {
+    .contact{
+      justify-content: center;
+    }
+    .main-cont{
+      justify-content: center;
+    }
+  }
+  @media (max-width: 700px) {
+    .contact{
+      justify-content: center;
+  }
+  .main-cont{
+    justify-content: center;
+  }
+}
+  @media (max-width: 450px) {
+    .contact{
+     justify-content: center;
+    }
+    .main-cont{
+      justify-content: center;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

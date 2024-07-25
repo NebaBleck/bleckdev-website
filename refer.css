@@ -1,0 +1,156 @@
+body{
+    margin: 0.0px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:100;
+    justify-content: space-between;
+    text-decoration: bold;
+}
+
+.top{
+    display: flex; 
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.uni{
+    color: orange;
+    text-transform: uppercase;
+}
+
+ .left{
+    display: flex;
+    width: 400px;
+    padding: 0px;
+ }
+ .list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+ }
+
+    @media screen and(max-width:1200px){
+        .nav{
+            width: 100%;
+            max-height: 100px;
+            overflow: hidden;
+        }
+       
+
+    }
+
+
+
+.footer{
+    background-color: black;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 20px;
+
+}
+.foot-cont{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;  
+}
+.foot-1{
+    display: flex;
+    gap: 40px;
+}
+.copyright{
+   margin-top: 60px;
+  
+}
+li{
+    display: flex; 
+}
+li:hover{
+    color: black;
+    background-color: white;
+}
+.faceb-icon{
+    width:49px;
+    margin-top:  50px;
+    border-radius: 29px;
+}
+.logo{
+   width: 40px;
+   height: 27px;
+   padding-bottom: 5px;
+   margin-bottom: 5px;
+}
+.hamburger{
+    width: 35px;
+    height: 27px;
+}
+@media(max-width:967px){
+    .sec,.sec-h{
+      display: none; 
+    }
+    li{
+        display: flex;
+       flex-direction: row;
+       width: 100%;
+    }
+}
+
+
+.wazap-icon{
+    width:49px;
+    margin-top:  50px;
+    border-radius: 29px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: px;
+}
+.index{
+    z-index: -1px;
+}
+.contact{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 15px;
+}
+.message{
+    border-radius:5px;
+   padding: 35px;
+   background-color: rgb(235, 231, 231);
+   border: none;
+   padding-right: 65px;
+}
+.name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    background-color: rgb(235, 231, 231);
+   border: none;
+   border-radius:5px;
+}
+.main-cont{
+    border: solid;
+    border-width: 1px;
+    padding: 20px;
+    border-color: rgb(219, 210, 210);
+    border-radius: 8px;
+    background-color: rgb(219, 210, 210);
+    width: 300px;
+}
+.get{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}

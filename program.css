@@ -1,0 +1,107 @@
+
+.course{
+    margin-top: 100px;
+    border: solid;
+    border-color: rgb(255, 194, 81);
+    border-radius: 1px;
+    border-width: 5px;
+    display:flex;
+   justify-content: center;
+   padding: 10px;
+ }
+.school-cont{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 23px;
+   z-index: 10000px;
+   
+   
+}
+.para{
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+}
+.par{
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+.background-clip{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  margin: 0;
+  padding: 0px;
+  object-fit: cover;
+
+}
+.motiv{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 189, 81);
+
+}
+.offer{
+    padding-top: 85px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    gap: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+@media (max-width: 2000px) {
+    .school-cont{
+      grid-template-columns: 1fr 1fr 1fr ;
+    }
+  }
+  @media (max-width: 1600px) {
+    .school-cont{
+      grid-template-columns: 1fr 1fr 1fr ;
+    }
+  }
+  @media (max-width: 1300px) {
+    .school-cont{
+      grid-template-columns: 1fr 1fr  ;
+    }
+  }
+  
+
+  @media (max-width: 800px) {
+    .school-cont{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 700px) {
+    .school-cont{
+      grid-template-columns: 1fr ;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .school-cont{
+      grid-template-columns: 1fr;
+    }
+  }
+  .get{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .wazap-icon{
+    z-index: -1px;
+  }
+  
+  
+
+
+
+
+
